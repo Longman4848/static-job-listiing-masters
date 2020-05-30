@@ -1,0 +1,50 @@
+.DS_Store
+
+
+
+#   function doSomethingWithApiData(records) {
+#                $(records).each(function(index, value) {
+#                    records.push(data);
+#                     let logoUrl = value.logo;
+#                    let companyName = value.company;
+#                   let newValue = value.new;
+#                   let featured = value.featured;
+#                   let position = value.position;
+#                   let role = value.role;
+#                    let level = value.level;
+#                   let postedAt = value.postedAt;
+#                     let contract = value.contract;
+#                     let location = value.location;
+#                    let languages = value.languages;
+#                    let tools = value.tools;
+#                    $(data).each(function(index, value) {
+#                    const containerList = document.querySelector(".container-list");
+#                   containerList.addEventListener("click", () => {
+#                        console.log("Button clicked.");
+#                        const sideBar = document.querySelector(".sideBar");
+#                         sideBar.textContent = "God is awesome!!!, I was clicked";
+#                    });
+#             });
+#             }
+#              doSomethingWithApiData();
+
+ 
+
+#  function clickedRole() {
+#     $('.sidebar').append('<p>God id great </p>');
+#     console.log("Button clicked");
+# }
+# var containerList = $('li');
+# containerList.forEach(el => {
+#     el.on("click", clickedRole);
+# });
+
+# });
+# $(this).append("<p>Here's a note</p>");
+# $("li").each(function() {
+#     $(document).on('click', 'li', function() {
+#         console.log("ready!");
+#         $('.sidebar').append('<p>God id great </p>');
+#     });
+
+# });
